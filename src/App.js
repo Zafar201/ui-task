@@ -11,7 +11,7 @@ import HotSale from './Components/HotSale';
 import RecentlyViewed from './Components/RecentlyViewed';
 import NewsLetter from './Components/NewsLetter';
 import Footer from './Components/Footer';
-import Apple from './Components/Apple';
+
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
        <RecentlyViewed/>
        <NewsLetter/>
        <Footer/>
-       {/* <Apple/> */}
+    
     </div>
   );
 }
