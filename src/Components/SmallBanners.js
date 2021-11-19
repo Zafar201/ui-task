@@ -45,7 +45,7 @@ function SmallBanners() {
                <Col className='small-3'>
                       <Container>
                      <Row>
-                        <h1>Explore<br /> <span>Products</span> </h1>
+                        <h1>Explore<br /> <span>classifieds</span> </h1>
                      </Row>
                      <Row>
                          <Col md={10}>
@@ -62,7 +62,7 @@ function SmallBanners() {
                   <Col className='small-4'>
                   <Container>
                      <Row>
-                        <h1>Patner<br /> <span>with Us</span> </h1>
+                        <h1>Add<br /> <span>classifieds</span> </h1>
                      </Row>
                      <Row>
                          <Col md={10}>

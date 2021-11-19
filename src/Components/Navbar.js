@@ -16,7 +16,7 @@ function Navbar() {
                     src="/assets/img/phone.png"
                   />
                 </Col>
-                <Col md={8}>
+                <Col md={10}>
                   <p>+221 33 66 22</p>
                 </Col>
               </Row>
@@ -35,7 +35,7 @@ function Navbar() {
                 </Col>
               </Row>
             </Col>
-            <Col md={{ span: 1, offset: 4 }}>
+            <Col md={{ span: 1, offset: 5 }}>
               <Row className="line">
                 <Col md={1}>
                   <img
@@ -44,17 +44,21 @@ function Navbar() {
                     src="/assets/img/location.png"
                   />
                 </Col>
-                <Col md={4}>
+                <Col md={6}>
                   <p>Calicut</p>
+                  
+                </Col>
+                <Col md={1} className='line-img'>
+                 <img src="/assets/img/separator.png" alt="" />
                 </Col>
               </Row>
             </Col>
             <Col>
-              <Row md={1}>
+              <Row md={2}>
                 <Col md={1}>
                   <p>$</p>
                 </Col>
-                <Col md={5}>
+                <Col md={7}>
                   <p>Dollars(US)</p>
                 </Col>
                 <Col md={1}>
@@ -92,11 +96,13 @@ function Navbar() {
             <p>Search here...</p>
             <img src="/assets/img/searchicon.png" alt="" />
           </Col>
+         
 
           <Col className="pad-img">
             <img src="/assets/img/love.png" alt="" />
 
-            <img src="/assets/img/basket.png" alt="" />
+            <img className='basket' src="/assets/img/basket.png" alt="" />
+            <img className='count'  src="/assets/img/count.png" alt="" />
 
             <img src="/assets/img/profile.png" alt="" />
           </Col>

@@ -28,16 +28,17 @@ function UrgentSelling() {
           <Col className='img-padd'>
             <Row>
               <img alt="" src="/assets/img/placeholder (4).png" />
+              
             </Row>
             <Row>
               <p>Holy Stone HS470 Foldable GPS RC Drone</p>
             </Row>
             <Row>
-              <Col>
+              <Col md={5}>
                 <p2>$300.98</p2>
               </Col>
-              <Col>
-                <p3>Cape Hadstone</p3>
+              <Col md={7} className='capetown'>
+                <img src="/assets/img/capetown.png" alt="" />
               </Col>
             </Row>
           </Col>
@@ -50,11 +51,11 @@ function UrgentSelling() {
               <p>Holy Stone HS470 Foldable GPS RC Drone</p>
             </Row>
             <Row>
-              <Col>
+              <Col md={5}>
                 <p2>$300.98</p2>
               </Col>
-              <Col>
-                <p3>Cape Hadstone</p3>
+              <Col md={7} className='capetown'>
+                <img src="/assets/img/capetown.png" alt="" />
               </Col>
             </Row>
           </Col>
@@ -67,11 +68,11 @@ function UrgentSelling() {
               <p>Holy Stone HS470 Foldable GPS RC Drone</p>
             </Row>
             <Row>
-              <Col>
+              <Col md={5}>
                 <p2>$300.98</p2>
               </Col>
-              <Col>
-                <p3>Cape Hadstone</p3>
+              <Col md={7} className='capetown'>
+                <img src="/assets/img/capetown.png" alt="" />
               </Col>
             </Row>
           </Col>
@@ -84,11 +85,11 @@ function UrgentSelling() {
               <p>Holy Stone HS470 Foldable GPS RC Drone</p>
             </Row>
             <Row>
-              <Col>
+              <Col md={5}>
                 <p2>$300.98</p2>
               </Col>
-              <Col>
-                <p3>Cape Hadstone</p3>
+              <Col md={7} className='capetown'>
+                <img src="/assets/img/capetown.png" alt="" />
               </Col>
             </Row>
           </Col>

@@ -11,6 +11,7 @@ import HotSale from './Components/HotSale';
 import RecentlyViewed from './Components/RecentlyViewed';
 import NewsLetter from './Components/NewsLetter';
 import Footer from './Components/Footer';
+import ReactSlick from './Components/ReactSlick';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
        <RecentlyViewed/>
        <NewsLetter/>
        <Footer/>
+       {/* <ReactSlick/> */}
     
     </div>
   );

@@ -10,10 +10,10 @@ function RecentlyViewed() {
                     <Col className='recently-1'>
                        <h1>Recently Viewed</h1>
                     </Col>
-                    <Col md={1}>
+                    <Col md={1} className='img-none'>
                     <img src="/assets/img/ok.png" alt="" />
                     </Col>
-                    <Col md={1}>
+                    <Col md={1} className='img-none'>
                     <img src="/assets/img/arrow (3).png" alt="" />
                       </Col>
 
@@ -128,7 +128,7 @@ function RecentlyViewed() {
                               <p>$33.3</p>
                           </Row>
                           <Row >
-                             <Col md={6} style={{paddingRight:"0"}}>
+                             <Col md={6} style={{paddingRight:"0",width:"50%"}}>
                              <img className="ratings" src="/assets/img/ratings.png" alt="" />
                              </Col>
                              <Col md={1} style={{paddingLeft:"0"}}>

@@ -15,7 +15,7 @@ function Recommedned() {
                 </Row>
 
                 <Row className='rec-2'>
-                    <Col style={{alignSelf:"center"}} md={1}>
+                    <Col style={{alignSelf:"center"}} md={1} className='img-none'>
                        <img src="/assets/img/Group 39.png" alt="" />
                     </Col>
                     <Col className='rec-2-box'>
@@ -32,10 +32,10 @@ function Recommedned() {
                           <Col md={6}>
                              <h3>$1,300</h3>
                           </Col>
-                          <Col md={3}>
+                          <Col md={{ span: 1, offset: 2 }}>
                              <h4>4.5</h4>
                           </Col>
-                          <Col className='rec-2-1' md={3}>
+                          <Col className='rec-2-1' md={1}>
                           <img src="/assets/img/star.png" alt="" /> 
                           </Col>
                       </Row>
@@ -57,10 +57,10 @@ function Recommedned() {
                           <Col md={6}>
                              <h3>$1,300</h3>
                           </Col>
-                          <Col md={3}>
+                          <Col md={{ span: 1, offset: 2 }}>
                              <h4>4.5</h4>
                           </Col>
-                          <Col className='rec-2-1' md={3}>
+                          <Col className='rec-2-1' md={1}>
                           <img src="/assets/img/star.png" alt="" /> 
                           </Col>
                       </Row>
@@ -82,10 +82,10 @@ function Recommedned() {
                           <Col md={6}>
                              <h3>$1,300</h3>
                           </Col>
-                          <Col md={3}>
+                          <Col md={{ span: 1, offset: 2 }}>
                              <h4>4.5</h4>
                           </Col>
-                          <Col className='rec-2-1' md={3}>
+                          <Col className='rec-2-1' md={1}>
                           <img src="/assets/img/star.png" alt="" /> 
                           </Col>
                       </Row>
@@ -107,10 +107,10 @@ function Recommedned() {
                           <Col md={6}>
                              <h3>$1,300</h3>
                           </Col>
-                          <Col md={3}>
+                          <Col md={{ span: 1, offset: 2 }}>
                              <h4>4.5</h4>
                           </Col>
-                          <Col className='rec-2-1' md={3}>
+                          <Col className='rec-2-1' md={1}>
                           <img src="/assets/img/star.png" alt="" /> 
                           </Col>
                       </Row>
@@ -119,7 +119,7 @@ function Recommedned() {
 
                     
                     
-                    <Col className='rec-2-box'>
+                    <Col className='rec-2-box '>
                       <Row className='rec-2-pad'>
                         <img src="/assets/img/ug-3.png" alt="" /> 
                       </Row>
@@ -129,20 +129,20 @@ function Recommedned() {
                       <Row>
                           <h2>$1,245.33</h2>
                       </Row>
-                      <Row style={{paddingBottom:"13px"}}>
+                      <Row style={{paddingBottom:"13px"}} >
                           <Col md={6}>
                              <h3>$1,300</h3>
                           </Col>
-                          <Col md={3}>
+                          <Col md={{ span: 1, offset: 2 }}>
                              <h4>4.5</h4>
                           </Col>
-                          <Col className='rec-2-1' md={3}>
+                          <Col className='rec-2-1' md={1}>
                           <img src="/assets/img/star.png" alt="" /> 
                           </Col>
                       </Row>
                     </Col>
 
-                    <Col md={1}  style={{alignSelf:"center"}}>
+                    <Col md={1} className='img-none' style={{alignSelf:"center"}}>
                     <img src="/assets/img/Group 423.png" alt="" />
                     </Col>
                 </Row>

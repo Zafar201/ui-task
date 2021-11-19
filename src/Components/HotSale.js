@@ -9,7 +9,7 @@ function HotSale() {
           <h1>Hot Sale</h1>
         </Row>
         <Row className='hotsale-2'>
-          <Col style={{ alignSelf: "center" }} md={1}>
+          <Col style={{ alignSelf: "center" }} className='img-none' md={1}>
             <img src="/assets/img/Group 39.png" alt="" />
           </Col>
 
@@ -24,7 +24,7 @@ function HotSale() {
                 <h2>$876.98</h2>
             </Row>
             <Row>
-                <Col md={8}>
+                <Col md={7}>
                   <h3>$890.99</h3>
                 </Col>
                 <Col md={2}>
@@ -52,7 +52,7 @@ function HotSale() {
                 <h2>$876.98</h2>
             </Row>
             <Row>
-                <Col md={8}>
+                <Col md={7}>
                   <h3>$890.99</h3>
                 </Col>
                 <Col md={2}>
@@ -80,7 +80,7 @@ function HotSale() {
                 <h2>$876.98</h2>
             </Row>
             <Row>
-                <Col md={8}>
+                <Col md={7}>
                   <h3>$890.99</h3>
                 </Col>
                 <Col md={2}>
@@ -108,7 +108,7 @@ function HotSale() {
                 <h2>$876.98</h2>
             </Row>
             <Row>
-                <Col md={8}>
+                <Col md={7}>
                   <h3>$890.99</h3>
                 </Col>
                 <Col md={2}>
@@ -125,7 +125,7 @@ function HotSale() {
           </Col>
 
 
-          <Col className='hot-box' >
+          <Col className='hot-box img-none' >
             <Row className='hotsales' >
                <img src="/assets/img/hot4.png" alt="" />
             </Row>
@@ -136,7 +136,7 @@ function HotSale() {
                 <h2>$876.98</h2>
             </Row>
             <Row>
-                <Col md={8}>
+                <Col md={7}>
                   <h3>$890.99</h3>
                 </Col>
                 <Col md={2}>
@@ -153,7 +153,7 @@ function HotSale() {
           </Col>
 
 
-          <Col md={1} style={{ alignSelf: "center" }}>
+          <Col md={1} style={{ alignSelf: "center" }} className='img-none'>
             <img src="/assets/img/Group 423.png" alt="" />
           </Col>
         </Row>
